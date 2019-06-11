@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-    *{
-        margin:0px;
-        padding:0px;
-    }
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
     </style>
     <script>
-    alert('dpr:'+window.devicePixelRatio+',screen.width'+screen.width+',screen.availWidth'+screen.availWidth+',window.outerWidth'+window.outerWidth+',window.innerWidth'+window.innerWidth);
+        var str = 'dpr:' + window.devicePixelRatio + ',screen.width' + screen.width + ',screen.availWidth' + screen
+            .availWidth + ',window.outerWidth' + window.outerWidth + ',window.innerWidth' + window.innerWidth+ ',screen.height' + screen.height + ',screen.availHeight' + screen
+            .availHeight + ',window.outerHeight' + window.outerHeight + ',window.innerHeight' + window.innerHeight;
+        alert(str);
     </script>
 </head>
+
 <body>
     <img src="./images/1.jpg" alt="">
     <img src="./images/1.jpg" alt="">
@@ -23,4 +29,5 @@
     <img src="./images/1.jpg" alt="">
     <img src="./images/1.jpg" alt="">
 </body>
+
 </html>
